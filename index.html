@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Портфолио Надежды Страховой, медиахудожницы из Москвы. Интерактивные инсталляции, видеоарт и концепции.">
+  <meta name="theme-color" content="#d8def5">
+  <title>Страхова Надежда — медиахудожница</title>
+  <link rel="preload" href="assets/fonts/montserrat.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="icon" href="assets/favicon.png" type="image/png" sizes="64x64">
+  <link rel="stylesheet" href="styles.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <main id="top">
+    <header class="frame profile">
+      <div class="profile__intro">
+        <h1>Страхова Надежда</h1>
+        <p class="profile__city">Москва</p>
+        <address class="profile__contacts">
+          <span>Tg: <a href="https://t.me/nadyainart">@nadyainart</a></span>
+          <span>Email: <a href="mailto:strahova.n.o@gmail.com">strahova.n.o@gmail.com</a></span>
+        </address>
+      </div>
+
+      <img class="profile__portrait" src="assets/portrait.webp" alt="Портрет Надежды Страховой" width="296" height="299" fetchpriority="high">
+
+      <div class="profile__about">
+        <h2>О себе</h2>
+        <p>Я Надя, начинающая медиахудожница. В искусство пришла из математики и аналитики данных. Хочу делать интерактивные инсталляции, связанные со схемотехникой, видеоартом и меппингом. Интересуюсь технологиями и тем, как их можно использовать для художественных работ.</p>
+        <p>Из тем, которые мне интересны, — математические алгоритмы и то, как они проявляются у нас в мире, одиночество и связь между людьми в различных её проявлениях. Участвовала в мастерских по медиаискусству, учусь на первом курсе в магистратуре Центрального университета «Медиаискусство».</p>
+      </div>
+    </header>
+
+    <div class="resume">
+      <details class="resume__section">
+        <summary>
+          <span class="frame resume__label"><span class="toggle-icon" aria-hidden="true"></span>Образование</span>
+        </summary>
+        <div class="frame resume__content">
+          <div class="resume__entry">
+            <h3>Центральный университет</h3>
+            <p>Магистратура, 2026–2028<br>Медиаискусство</p>
+            <p>Python, Ableton, Blender, ИИ, TouchDesigner</p>
+          </div>
+          <div class="resume__entry">
+            <h3>МГУ им. Ломоносова</h3>
+            <p>Механико-математический факультет<br>Кафедра математической статистики и случайных процессов</p>
+            <p>2016–2022</p>
+          </div>
+        </div>
+      </details>
+
+      <details class="resume__section">
+        <summary>
+          <span class="frame resume__label"><span class="toggle-icon" aria-hidden="true"></span>Дополнительное образование</span>
+        </summary>
+        <div class="frame resume__content">
+          <div class="resume__entry">
+            <h3>Школа анализа данных</h3>
+            <p>2023–2024<br>Промышленное машинное обучение</p>
+          </div>
+          <div class="resume__entry">
+            <h3>Курсы Typomania</h3>
+            <p>TouchDesigner basic lab<br>2026</p>
+          </div>
+        </div>
+      </details>
+
+      <details class="resume__section">
+        <summary>
+          <span class="frame resume__label"><span class="toggle-icon" aria-hidden="true"></span>Работа</span>
+        </summary>
+        <div class="frame resume__content">
+          <div class="resume__entry">
+            <h3>Яндекс</h3>
+            <p>Аналитик-разработчик<br>Февраль 2022 — октябрь 2025</p>
+          </div>
+        </div>
+      </details>
+    </div>
+
+    <section class="frame projects" id="projects" aria-labelledby="projects-heading">
+      <h2 class="projects__heading" id="projects-heading">Творческие проекты</h2>
+
+      <section class="project-group" aria-labelledby="komarovo-heading">
+        <header class="project-group__header">
+          <h3 id="komarovo-heading">Резиденция в Комарово «Театр. Наука. Искусство» и кейс-чемпионат от БДТ и МФТИ</h3>
+          <p><time datetime="2026">2026</time></p>
+        </header>
+
+        <div class="project-group__works">
+          <article class="project" id="zatishye">
+            <h4>«Затишье»</h4>
+            <p class="project__format">Концепция перформанса</p>
+            <p class="project__credits"><strong>Авторы:</strong> Анисеня Анастасия, Галочкина Виктория, Ломоносова Мария, Огурлиева Ирина, Страхова Надежда</p>
+            <p class="project__description">Перформанс о разнице между наступлением опасности и моментом, когда мы о ней узнаём. На основе данных о цунами в Японии 11 марта 2011 года проект превращает несовпадающие прогнозы прихода волны в звучание хора, движения исполнителей и поднимающуюся воду. Это исследование того, как встречаются в одной точке реальные события и их предсказания.</p>
+            <p class="project__visit"><a href="https://nadyastrakhova.github.io/zatishye/">Сайт проекта «Затишье» <span aria-hidden="true">↗</span></a></p>
+
+            <!-- Порядок фотографий задаёт порядок блоков figure. Подпись можно добавить в figcaption после ссылки. -->
+            <div class="gallery">
+              <figure>
+                <a href="assets/projects/zatishye/01.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/zatishye/01.webp" alt="Титульный слайд «Затишья» с графиком волны" width="1710" height="970" loading="lazy" decoding="async">
+                </a>
+              </figure>
+              <figure>
+                <a href="assets/projects/zatishye/02.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/zatishye/02.webp" alt="Команда «Затишья» на слайде презентации" width="1712" height="970" loading="lazy" decoding="async">
+                </a>
+              </figure>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="project-group" aria-labelledby="summer-school-heading">
+        <header class="project-group__header">
+          <h3 id="summer-school-heading">Мастерская технологического искусства на Летней школе</h3>
+          <p><time datetime="2024">2024</time>, <time datetime="2026">2026</time></p>
+        </header>
+
+        <div class="project-group__works">
+          <article class="project" id="vnutri">
+            <h4>«Внутри»</h4>
+            <p class="project__format">Интерактивная инсталляция</p>
+            <p class="project__credits"><strong>Авторы:</strong> Страхова Надежда, Конин Александр</p>
+            <p class="project__description">Работа исследует опыт депрессии как состояния внутренней темноты и невидимой ценности человека, которую можно вновь обнаружить благодаря поддержке.</p>
+
+            <div class="gallery">
+              <figure>
+                <a href="assets/projects/vnutri/02.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/vnutri/02.webp" alt="Подготовка инсталляции «Внутри» на Летней школе" width="2200" height="1460" loading="lazy" decoding="async">
+                </a>
+              </figure>
+              <figure>
+                <a href="assets/projects/vnutri/03.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/vnutri/03.webp" alt="Зрители рядом с палаткой инсталляции" width="1754" height="1164" loading="lazy" decoding="async">
+                </a>
+              </figure>
+              <figure>
+                <a href="assets/projects/vnutri/01.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/vnutri/01.webp" alt="Палатка инсталляции «Внутри» среди деревьев" width="1110" height="1478" loading="lazy" decoding="async">
+                </a>
+              </figure>
+              <figure>
+                <a href="assets/projects/vnutri/04.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/vnutri/04.webp" alt="Внутреннее пространство инсталляции при красном свете" width="1092" height="1432" loading="lazy" decoding="async">
+                </a>
+              </figure>
+              <figure>
+                <a href="assets/projects/vnutri/05.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/vnutri/05.webp" alt="Фрагмент инсталляции в красном свете" width="1114" height="1450" loading="lazy" decoding="async">
+                </a>
+              </figure>
+            </div>
+          </article>
+
+          <article class="project" id="techet-reka">
+            <h4>«Течёт река»</h4>
+            <p class="project__format">Видеоарт</p>
+            <p class="project__credits"><strong>Авторы:</strong> Страхова Надежда, Виктория Галочкина</p>
+            <p class="project__description">Работа исследует Волгу как пространство памяти и связи между людьми, соединяя природные данные реки, человеческие голоса и визуальные наблюдения в единый аудиовизуальный образ.</p>
+
+            <div class="gallery">
+              <figure>
+                <a href="assets/projects/techet-reka/01.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/techet-reka/01.webp" alt="Зрители перед проекцией работы «Течёт река»" width="1098" height="1458" loading="lazy" decoding="async">
+                </a>
+              </figure>
+            </div>
+          </article>
+
+          <article class="project" id="soobshchenie-otpravleno">
+            <h4>«Сообщение отправлено»</h4>
+            <p class="project__format">Мультимедийная инсталляция</p>
+            <p class="project__credits"><strong>Автор:</strong> Страхова Надежда</p>
+            <p class="project__description">Инсталляция исследует, что происходит с человеческим переживанием в процессе цифрового кодирования, и предлагает задуматься: что остаётся от сообщения, когда исчезает его привычная форма?</p>
+
+            <div class="gallery">
+              <figure>
+                <a href="assets/projects/soobshchenie-otpravleno/01.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/soobshchenie-otpravleno/01.webp" alt="Экран инсталляции «Сообщение отправлено» с текстом и кнопками" width="2200" height="1110" loading="lazy" decoding="async">
+                </a>
+              </figure>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="project-group" aria-labelledby="studies-heading">
+        <header class="project-group__header">
+          <h3 id="studies-heading">Учебные проекты</h3>
+        </header>
+
+        <div class="project-group__works">
+          <article class="project" id="zvukovye-sredy">
+            <h4>Работа по звуковым средам</h4>
+            <p class="project__format">Концепция · <time datetime="2026">2026</time></p>
+            <p class="project__description">Звуки воды звучат в то же время, когда зритель наблюдает за сухоцветами. Работа вдохновлена научным открытием, что рифы создают звуки, и если у умирающего рифа поставить колонку со звуками живого, то его скоро начнут обживать.</p>
+
+            <div class="gallery">
+              <figure>
+                <a href="assets/projects/zvukovye-sredy/01.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/zvukovye-sredy/01.webp" alt="Визуализация концепции с сухоцветами на постаменте в луче света" width="506" height="724" loading="lazy" decoding="async">
+                </a>
+              </figure>
+              <figure>
+                <a href="assets/projects/zvukovye-sredy/02.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/zvukovye-sredy/02.webp" alt="Композиция из сухоцветов на нейтральном фоне" width="1684" height="1172" loading="lazy" decoding="async">
+                </a>
+              </figure>
+            </div>
+          </article>
+
+          <article class="project" id="sistema-ispravna">
+            <h4>«Система исправна»</h4>
+            <p class="project__format">Инсталляция · <time datetime="2026">2026</time></p>
+            <p class="project__credits"><strong>Авторы:</strong> Караханян Роман, Страхова Надежда, Лукута Евгений (tech support)</p>
+            <p class="project__description">Инсталляция про состояние системы бункера. Была экспонирована на университетском посвяте и вписана в общий сторителлинг.</p>
+
+            <div class="gallery">
+              <figure>
+                <a href="assets/projects/sistema-ispravna/01.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/sistema-ispravna/01.webp" alt="Зритель перед экраном и световыми объектами инсталляции «Система исправна»" width="2180" height="1428" loading="lazy" decoding="async">
+                </a>
+              </figure>
+              <figure>
+                <a href="assets/projects/sistema-ispravna/02.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/sistema-ispravna/02.webp" alt="Подсвеченные прозрачные цилиндры инсталляции" width="2028" height="1428" loading="lazy" decoding="async">
+                </a>
+              </figure>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="project-group" aria-labelledby="kaliningrad-heading">
+        <header class="project-group__header">
+          <h3 id="kaliningrad-heading">Резиденция в Калининграде</h3>
+          <p><time datetime="2025">2025</time></p>
+        </header>
+
+        <div class="project-group__works">
+          <article class="project" id="pesok-pamyati">
+            <h4>«Песок Памяти»</h4>
+            <p class="project__format">Инсталляция, видеоарт</p>
+            <p class="project__credits"><strong>Авторы:</strong> Надежда Страхова, Маша Каусова, Алиса Воробей</p>
+            <p class="project__description">Работа исследует память как накопление пережитого, которое формирует наши действия и передаётся между людьми, используя песок, янтарь, свет и движение как метафоры этого процесса.</p>
+
+            <div class="gallery">
+              <figure>
+                <a href="assets/projects/pesok-pamyati/01.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/pesok-pamyati/01.webp" alt="Работа с песком перед экраном инсталляции «Песок Памяти»" width="2200" height="1442" loading="lazy" decoding="async">
+                </a>
+              </figure>
+              <figure>
+                <a href="assets/projects/pesok-pamyati/02.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/pesok-pamyati/02.webp" alt="Зрители вокруг песочной инсталляции" width="2008" height="1448" loading="lazy" decoding="async">
+                </a>
+              </figure>
+              <figure>
+                <a href="assets/projects/pesok-pamyati/03.webp" target="_blank" rel="noopener">
+                  <img src="assets/projects/pesok-pamyati/03.webp" alt="Авторы проекта «Песок Памяти»" width="1116" height="1458" loading="lazy" decoding="async">
+                </a>
+              </figure>
+            </div>
+          </article>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="frame footer__content">
+      <a href="https://t.me/nadyainart">@nadyainart</a>
+      <a href="#top">К началу <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>
